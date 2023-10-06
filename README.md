@@ -28,3 +28,15 @@
 - Nesse repositório existem dois arquivos de código.
 - O arquivo 'ProjetoAirbnb.ipynb' possui os códigos de análise, tratamento dos dados e criação do modelo de Machine Learning.
 - O arquivo 'DeployAirbnb.ipynb' é referente ao código para criação do deploy do projeto.
+
+
+<br>
+
+### <b>Como usar o Deploy do modelo</b>
+- O deploy do modelo foi feito utilizadno o stremlit.
+- Antes de tudo, devemos rodar o codigo principal. Pois ele gera os arquivos que serão utilizados no deploy.
+- Para executalo, devemos salvar todos os arquivos na mesma pasta.
+- Devemos acessar o Prompt do Anaconda e digitar o seguinte comando:<br>
+~~~
+ streamlit run <caminho do arquivo Deploy.py>
+~~~
